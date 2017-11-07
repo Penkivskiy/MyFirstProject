@@ -95,3 +95,26 @@ hr {
 .our_team {
 	background-color: #e0e0e0;
 }
+.shares {
+	background-color: #ff7878;
+}
+.shares h1 {
+	text-align: center;
+	font-size: 25px;
+}
+.footer {
+	background-image: url(../img/footer_1.jpg);
+	text-align: center;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-size: 100% 100%;  
+}
+.footer .row {
+	color: white;
+	margin-top: 40px;
+}
+.footer .row h1 {
+	color: white;
+}
