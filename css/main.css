@@ -60,5 +60,29 @@ hr {
 	color: #999;
 	font-weight: bolder;
 	font-size: 22px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+}
+#header_wrap {
+	background: url(../img/header_wrap.jpg) no-repeat center top;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-size: 100% 100%;
+
+
+/*	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+}
+#header_wrap h1{
+	margin-top: 100px;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+#header_wrap h2 {
+	font-size: 40px;
 }
