@@ -65,7 +65,6 @@ hr {
 	background-position: center;
 	height: 100vh;
 }
-
 .header_wrap h1{
 	font-size: 70px;
 	font-weight: 300;
@@ -80,6 +79,40 @@ hr {
 .new_menu h4 {
 	font-size: 25px;
 }
+.menu {
+	font-size: 20px;
+}
+.menu .nav {
+	text-align: center;
+	border-radius: 20px;
+}
+.menu a {
+	color: #FFFFF0;
+}
+.menu a:hover {
+	color: #ffa500;
+}
+.menu ul {
+	background-color: #555;
+}
+.tab-pane {
+	margin-top: 30px;
+	text-align: center;
+}
+.col-lg-4 {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .our_team {
 	background-color: #e0e0e0;
 }
