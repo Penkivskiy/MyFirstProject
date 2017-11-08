@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body{
 	height: 100%;
@@ -16,6 +20,9 @@ body{
 }
 a {
 	color: #FFFFF0;
+}
+a:hover {
+	color: #ffa500;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Raleway";
@@ -49,20 +56,22 @@ hr {
 .icon-bar {
 	background-color: white;
 }
-#header_wrap {
+.navbar a:focus {
+	background-color: red;
+}
+.header_wrap {
 	background-image: url(../img/header_wrap.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	margin-top: -30px;
 }
-#header_wrap h1{
-	margin-top: 150px;
+
+.header_wrap h1{
 	font-size: 70px;
 	font-weight: 300;
 	letter-spacing: 3px;
 }
-#header_wrap h2 {
+.header_wrap h2 {
 	font-size: 40px;
 }
 .new_menu {
