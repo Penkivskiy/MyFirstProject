@@ -80,7 +80,7 @@ button.btn.btn-warning {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(204, 204, 204, 0.04);
+	background-color: rgba(204, 204, 204, 0.1);
 }
 .title_brand {
 	text-align: center;
@@ -94,34 +94,49 @@ button.btn.btn-warning {
 .header_wrap h2 {
 	font-size: 40px;
 }
+
+
+
+
 .new_menu {
-	padding-top: 35px;
+	padding-top: 0px;
 }
 .new_menu h4 {
 	font-size: 25px;
 }
-.menu {
-	font-size: 20px;
+
+
+
+
+.bg_menu {
+	background-image: url(../img/bg_menu.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
 }
-.menu .nav {
+.menu {
+	background-color: rgba(51, 51, 51, 0.45);
 	text-align: center;
-	border-radius: 20px;
+	color: ;
 }
 .menu a {
-	color: #FFFFF0;
+	color: #f0ad4e;
+	font-size: 20px;
 }
-.menu a:hover {
-	color: #ffa500;
+.menu h3 {
+	color: white;
 }
-.menu ul {
-	background-color: #555;
+
+.sushi {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul.nav.nav-tabs.nav-justified {
+
+}
 }
 .tab-pane {
-	margin-top: 30px;
-	text-align: center;
-}
-.col-lg-4 {
-	margin-top: 20px;
+	background-color: green;
 }
 
 
