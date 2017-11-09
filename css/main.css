@@ -51,28 +51,45 @@ button.btn.btn-warning.btn-lg {
 button.btn.btn-warning {
 	border-radius: 0px;
 }
+
+
+
+
+
 .navbar {
 	font-size: 20px;
-	background-color: #555;
+	background-color: rgba(255, 153, 1, 0.32);
+}
+.navbar a {
+	color: rgba(0, 0, 0, 1);
+}
+.navbar-collapse.collapse > ul > li:hover > a {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgba(255, 153, 1, 0.9);
 }
 .navbar .navbar-brand {
 	font-size: 25px;
 	letter-spacing: 1px;
 	font-weight: 500;
 }
+.navbar-header > a:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
 .icon-bar {
 	background-color: white;
 }
-.nav.navbar-nav.navbar-right li:hover {
-	background-color: red;
-}
+
+
+
+
+
+
 .header_wrap {
 	background-image: url(../img/header_wrap.jpg);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
 	height: 100vh;
-	margin-top: -70px;
 }
 .header_head {
 	position: absolute;
@@ -117,7 +134,7 @@ button.btn.btn-warning {
 .label_menu {
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px; 
+	margin-bottom: 20 
 }
 .label_menu h1 {
 	color: white;
@@ -138,29 +155,12 @@ button.btn.btn-warning {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-ul.nav.nav-tabs.nav-justified:hover{
-	background-color: rgba(0, 0, 0, 0.001);
+
+
+
+.nav.nav-tabs.nav-justified a:hover {
+	background: black;
 }
-ul.nav.nav-tabs.nav-justified:focus {
-	background-color: rgba(0, 0, 0, 0.001);
-}
-li:hover {
-	background-color: rgba(0, 0, 0, 0.001);
-}
-ul.nav.nav-tabs.nav-justified {
-	
-}
-
-
-
-
-
-
-
-
-
-
-
 
 .our_team {
 	background-color: #e0e0e0;
