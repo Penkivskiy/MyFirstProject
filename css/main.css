@@ -117,6 +117,7 @@ button.btn.btn-warning {
 
 .new_menu {
 	padding-top: 0px;
+	background-color: rgba(221, 221, 221, 0.45);
 }
 .new_menu h4 {
 	font-size: 25px;
@@ -128,7 +129,8 @@ button.btn.btn-warning {
 .bg_menu {
 	background-image: url(../img/bg_menu.jpg);
 	background-size: cover;
-	background-position: center;
+	background-size: 100% 100%;
+	background-position: center center;
 	overflow: hidden;
 }
 .label_menu {
@@ -150,20 +152,43 @@ button.btn.btn-warning {
 .menu h3 {
 	color: white;
 }
-
 .sushi {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
-
-
 .nav.nav-tabs.nav-justified a:hover {
-	background: black;
+	background: rgba(94, 68, 31, 0.5);
+	color: white;
+}
+.nav.nav-tabs.nav-justified a:active {
+	border-bottom: 0px;
+}
+.menu.container > ul > li.active > a {
+	background-color: rgba(94, 68, 31, 0.5);
+	color: #f0ad4e;
+}
+.menu.container > ul > li.active > a:hover,
+.menu.container > ul > li.active > a:forus,
+.menu.container > ul > li.active > a:active,
+.menu.container > ul > li.active > a:visited,
+.menu.container > ul > li.active > a:link {
+	border-bottom: 0px;
 }
 
+
+
 .our_team {
-	background-color: #e0e0e0;
+	background-image: url(../img/bg_our_team.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.container.blog {
+	background-color: rgba(221, 221, 221, 0.45);
+}
+.container.blog {
+	color: black;
 }
 .shares {
 	background-color: #ff7878;
