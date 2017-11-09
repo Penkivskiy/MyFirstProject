@@ -63,7 +63,7 @@ button.btn.btn-warning {
 .icon-bar {
 	background-color: white;
 }
-.navbar a:focus {
+.nav.navbar-nav.navbar-right li:hover {
 	background-color: red;
 }
 .header_wrap {
@@ -114,10 +114,17 @@ button.btn.btn-warning {
 	background-position: center;
 	overflow: hidden;
 }
+.label_menu {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+.label_menu h1 {
+	color: white;
+}
 .menu {
 	background-color: rgba(51, 51, 51, 0.45);
 	text-align: center;
-	color: ;
 }
 .menu a {
 	color: #f0ad4e;
@@ -131,13 +138,19 @@ button.btn.btn-warning {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+ul.nav.nav-tabs.nav-justified:hover{
+	background-color: rgba(0, 0, 0, 0.001);
+}
+ul.nav.nav-tabs.nav-justified:focus {
+	background-color: rgba(0, 0, 0, 0.001);
+}
+li:hover {
+	background-color: rgba(0, 0, 0, 0.001);
+}
 ul.nav.nav-tabs.nav-justified {
+	
+}
 
-}
-}
-.tab-pane {
-	background-color: green;
-}
 
 
 
