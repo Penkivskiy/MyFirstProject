@@ -60,6 +60,9 @@ button.btn.btn-warning {
 	font-size: 20px;
 	background-color: rgba(255, 153, 1, 0.32);
 }
+.navbar:hover {
+	background-color: rgba(255, 153, 1, 0.7);
+}
 .navbar a {
 	color: rgba(0, 0, 0, 1);
 }
