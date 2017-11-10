@@ -59,10 +59,10 @@ button.btn.btn-warning {
 
 .navbar {
 	font-size: 20px;
-	background-color: rgba(255 ,253 ,244, 0.7);
+	background-color: rgba(247, 189, 27, 0.7);
 }
 .navbar:hover {
-	background-color: rgba(255 ,253 ,244, 0.9);
+	background-color: rgba(247, 189, 27, 0.95);
 }
 .navbar a {
 	color: rgba(0, 0, 0, 1);
@@ -78,7 +78,7 @@ button.btn.btn-warning {
 	font-weight: 500;
 }
 .navbar-header > a:hover {
-	color: rgba(255, 153, 1, 0.9);
+	color: rgba(24, 40, 45, 1);
 }
 .icon-bar {
 	background-color: white;
@@ -105,11 +105,8 @@ button.btn.btn-warning {
 	background-color: rgba(199, 150, 150, 0.25);
 }
 .address {
-	margin-top: 15%;
+	margin-top: 150px;
 	color: black;
-}
-.time_work {
-	text-align: left;
 }
 .time_work h4 {
 	font-size: 26px;
@@ -119,7 +116,6 @@ button.btn.btn-warning {
 }
 .address_phone {
 	text-align: right;
-	margin-top: -83px;
 }
 .address_phone h4 {
 	font-size: 26px;
