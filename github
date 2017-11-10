@@ -5,3 +5,8 @@ git remote add origin https://github.com/Penkivskiy/MyFirstProject.git
 
 
 
+.navbar-collapse.collapse > ul
+background-color: rgba(24,40,45)
+
+
+.navbar-collapse.collapse > ul > li:nth-child(1) > a

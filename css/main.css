@@ -7,7 +7,7 @@
 body{
 	height: 100%;
 	margin: 0;
-	background-color: #f2f2f2;
+	background-color: rgba(204, 204, 204, 0.17);
 	font-family: "Lato";
 	font-weight: 300;
 	font-size: 16px;
@@ -36,20 +36,21 @@ p {
 .centered {
 	text-align: center;
 }
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid#ccc;
+hr { 
+	border-top: 1px solid#f7b520 !important;
 	margin: 1em 0;
 	padding: 0;
 }
 button.btn.btn-warning.btn-lg {
+	background: rgb(24,40,45);
+	border-color: rgb(24,40,45); 
 	border-radius: 0px;
 	padding: 15px 24px;
 }
 button.btn.btn-warning {
 	border-radius: 0px;
+	background: rgb(24,40,45);
+	border-color: rgb(24,40,45);
 }
 
 
@@ -58,25 +59,26 @@ button.btn.btn-warning {
 
 .navbar {
 	font-size: 20px;
-	background-color: rgba(255, 153, 1, 0.32);
+	background-color: rgba(255 ,253 ,244, 0.7);
 }
 .navbar:hover {
-	background-color: rgba(255, 153, 1, 0.7);
+	background-color: rgba(255 ,253 ,244, 0.9);
 }
 .navbar a {
 	color: rgba(0, 0, 0, 1);
 }
-.navbar-collapse.collapse > ul > li:hover > a {
-	background-color: rgba(0, 0, 0, 0.4);
-	color: rgba(255, 153, 1, 0.9);
+.navbar-collapse.collapse > ul > li > a:hover {
+	background-color: rgb(24,40,45);
+	color: rgba(255, 153, 1, 1);
 }
+
 .navbar .navbar-brand {
 	font-size: 25px;
 	letter-spacing: 1px;
 	font-weight: 500;
 }
 .navbar-header > a:hover {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(255, 153, 1, 0.9);
 }
 .icon-bar {
 	background-color: white;
@@ -100,18 +102,44 @@ button.btn.btn-warning {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(204, 204, 204, 0.1);
+	background-color: rgba(199, 150, 150, 0.25);
 }
+.address {
+	margin-top: 15%;
+	color: black;
+}
+.time_work {
+	text-align: left;
+}
+.time_work h4 {
+	font-size: 26px;
+}
+.time_work h5 {
+	font-size: 22px;
+}
+.address_phone {
+	text-align: right;
+	margin-top: -83px;
+}
+.address_phone h4 {
+	font-size: 26px;
+}
+.address_phone h5 {
+	font-size: 22px;
+}
+
 .title_brand {
 	text-align: center;
-	margin-top: 22%;
+	margin-top: 5%;
 }
 .header_wrap h1{
+	color: black;
 	font-size: 70px;
 	font-weight: 300;
 	letter-spacing: 3px;
 }
 .header_wrap h2 {
+	color: black;
 	font-size: 40px;
 }
 
@@ -120,7 +148,6 @@ button.btn.btn-warning {
 
 .new_menu {
 	padding-top: 0px;
-	background-color: rgba(221, 221, 221, 0.45);
 }
 .new_menu h4 {
 	font-size: 25px;
@@ -128,93 +155,72 @@ button.btn.btn-warning {
 
 
 
-
 .bg_menu {
-	background-image: url(../img/bg_menu.jpg);
-	background-size: cover;
-	background-size: 100% 100%;
-	background-position: center center;
-	overflow: hidden;
+	background-color: rgba(8, 8, 8, 0.04);
 }
-.label_menu {
+.bg_menu .label_menu {
 	text-align: center;
+} 
+.nav.nav-pills.nav-justified {
 	margin-top: 20px;
-	margin-bottom: 20 
+	font-size: 18px;
 }
-.label_menu h1 {
-	color: white;
+.nav.nav-pills.nav-justified a {
+	color: rgb(24,40,45);
 }
-.menu {
-	background-color: rgba(51, 51, 51, 0.45);
+.bg_menu.container-fluid > .container > ul > li.active > a{
+	background-color: rgb(255,195,121);
+}
+.bg_menu.container-fluid > .container > ul > li > a:hover {
+	background-color: rgba(24,40,45, 0.1);
+}
+.tab-content {
+	margin-top: 20px;
+	margin-bottom: 20px; 
 	text-align: center;
 }
-.menu a {
-	color: #f0ad4e;
-	font-size: 20px;
-}
-.menu h3 {
-	color: white;
-}
-.sushi {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.nav.nav-tabs.nav-justified a:hover {
-	background: rgba(94, 68, 31, 0.5);
-	color: white;
-}
-.nav.nav-tabs.nav-justified a:active {
-	border-bottom: 0px;
-}
-.menu.container > ul > li.active > a {
-	background-color: rgba(94, 68, 31, 0.5);
-	color: #f0ad4e;
-}
-.menu.container > ul > li.active > a:hover,
-.menu.container > ul > li.active > a:forus,
-.menu.container > ul > li.active > a:active,
-.menu.container > ul > li.active > a:visited,
-.menu.container > ul > li.active > a:link {
-	border-bottom: 0px;
-}
+
+
+
+
 
 
 
 .our_team {
-	background-image: url(../img/bg_our_team.jpg);
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-}
-.container.blog {
-	background-color: rgba(221, 221, 221, 0.45);
+
 }
 .container.blog {
 	color: black;
 }
-.shares {
-	background-color: #ff7878;
+
+
+
+.footer {
+	margin-top: 20px;
+	background-color:  rgb(24,40,45);
 }
-.shares h1 {
-	text-align: center;
+.footer_phone {
+	margin-top: 100px;
+}
+.footer_phone h4 {
+	color: rgba(255 ,253 ,244, 0.8);
+	font-size: 30px;
+}
+.footer_phone h5 {
+	color: rgba(255 ,253 ,244, 0.8);
 	font-size: 25px;
 }
-.footer {
-	background-image: url(../img/footer_1.jpg);
-	background-position: center center;
-	min-height: 300px;
-	width: 100%;
-	background-size: cover;
-	background-size: 100% 100%;  
+.footer_time_work {
+	margin-top: 100px;
 }
-.footer .row {
-	color: white;
-	margin-top: 40px;
+.footer_time_work h4 {
+	color: rgba(255 ,253 ,244, 0.8);
+	font-size: 20px;
 }
-.footer .row h1 {
-	color: white;
+.footer_time_work h5 {
+	color: rgba(255 ,253 ,244, 0.8);
+	font-size: 23px;
 }
-.footer .row .phone {
-	text-align: center;
+.soc_network {
+	font-size: 30px;
 }
